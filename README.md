@@ -33,7 +33,7 @@ swift test
 ```
 
 This runs `BenjiCoreTests` against the cross-platform `BenjiCore` package
-(see `Package.swift`). 27 tests cover: earning-rate math, real-wage
+(see `Package.swift`). 26 tests cover: earning-rate math, real-wage
 deductions, history filtering, stats aggregation, JSON export round-trip,
 formatters, password hashing, decision normalisation, and the calculator
 input state machine.
@@ -163,7 +163,7 @@ non-Apple platforms it falls back to `swift-crypto`.
 * SwiftData persistence with relationships and cascade deletes.
 * Keychain-backed auth and session restore.
 * Native JSON export with `ShareLink` + temporary file URL.
-* 27 unit tests covering all critical pure logic, runnable via
+* 26 unit tests covering all critical pure logic, runnable via
   `swift test` (no simulator required).
 * Two-line Xcode project using Xcode 16's synchronised root groups so
   adding new Swift files needs no project edits.
